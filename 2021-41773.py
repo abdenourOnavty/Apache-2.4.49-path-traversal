@@ -14,8 +14,8 @@
 from sys import argv, exit
 
 if (len(argv)) != 2:
-    print('\033[1;32;40m Usage : python Apache-2.4.49-lfi.py IP')
-    print('\033[1;32;40m Exemple : python Apache-2.4.49-lfi.py 10.0.1.10')
+    print('\033[1;32;40m Usage : python Apache-2.4.49.py IP')
+    print('\033[1;32;40m Exemple : python Apache-2.4.49.py 10.0.1.10')
     exit()
 
 ip = argv[1]
